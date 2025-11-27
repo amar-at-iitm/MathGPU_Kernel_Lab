@@ -1,0 +1,42 @@
+{
+  "NVIDIA RTX 500 Ada Generation Laptop GPU": {
+    "architecture": "Ada Lovelace",
+    "compute_capability": "8.9",
+    "peak_fp32_tflops": 9.2,
+    "peak_fp16_tensor_tflops": 36.8,
+    "peak_memory_bandwidth_gbps": 112.0,
+    "vram_gb": 4.0
+  },
+  "NVIDIA GeForce RTX 4090": {
+    "architecture": "Ada Lovelace",
+    "compute_capability": "8.9",
+    "peak_fp32_tflops": 82.6,
+    "peak_fp16_tensor_tflops": 165.2,
+    "peak_memory_bandwidth_gbps": 1008.0,
+    "vram_gb": 24.0
+  },
+  "NVIDIA GeForce RTX 3090": {
+    "architecture": "Ampere",
+    "compute_capability": "8.6",
+    "peak_fp32_tflops": 35.6,
+    "peak_fp16_tensor_tflops": 71.2,
+    "peak_memory_bandwidth_gbps": 936.0,
+    "vram_gb": 24.0
+  },
+  "NVIDIA A100-SXM4-80GB": {
+    "architecture": "Ampere",
+    "compute_capability": "8.0",
+    "peak_fp32_tflops": 19.5,
+    "peak_fp16_tensor_tflops": 312.0,
+    "peak_memory_bandwidth_gbps": 2039.0,
+    "vram_gb": 80.0
+  },
+  "NVIDIA H100-SXM-80GB": {
+    "architecture": "Hopper",
+    "compute_capability": "9.0",
+    "peak_fp32_tflops": 67.0,
+    "peak_fp16_tensor_tflops": 989.0,
+    "peak_memory_bandwidth_gbps": 3350.0,
+    "vram_gb": 80.0
+  }
+}
