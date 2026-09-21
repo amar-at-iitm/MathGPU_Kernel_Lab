@@ -148,7 +148,7 @@ The implementation investigates:
 
 For an input vector $x$,
 
-$$\operatorname{softmax}(x_i)=\frac{e^{x_i}}{\sum_j e^{x_j}}.$$
+$$\text{softmax}(x_i)=\frac{e^{x_i}}{\sum_j e^{x_j}}.$$
 
 The CUDA implementation focuses on efficient:
 
@@ -160,7 +160,7 @@ The CUDA implementation focuses on efficient:
 
 Numerical stability is maintained using
 
-$$\operatorname{softmax}(x_i)=\frac{e^{x_i-m}}{\sum_j e^{x_j-m}},$$
+$$\text{softmax}(x_i)=\frac{e^{x_i-m}}{\sum_j e^{x_j-m}},$$
 
 where
 
@@ -174,7 +174,7 @@ The project implements the computational components of attention:
 
 $$S = QK^T$$
 
-$$P = \operatorname{softmax}(S)$$
+$$P = \text{softmax}(S)$$
 
 $$O = PV.$$
 
